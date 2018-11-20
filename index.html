@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>JavaScript DOM Tutorials</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="page-banner">
+        <div class="jumbotron">
+          <h1 class="text-center">Book Store</h1>
+          <p class="text-center">Choose your own book</p>
+
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+              placeholder="Search Books......."
+            />
+          </div>
+        </div>
+      </div>
+      <div id="book-list">
+        <ul class="list-group">
+          <li
+            class="list-group-item d-flex justify-content-between align-items-center"
+          >
+            Sherlock Holms and Ruduru Balla
+            <span class="badge"
+              ><button type="button" class="btn btn-danger">
+                Danger
+              </button></span
+            >
+          </li>
+          <li
+            class="list-group-item d-flex justify-content-between align-items-center"
+          >
+            Madol Duwa
+            <span class="badge"
+              ><button type="button" class="btn btn-danger">
+                Danger
+              </button></span
+            >
+          </li>
+          <li
+            class="list-group-item d-flex justify-content-between align-items-center"
+          >
+            Harry Potter and Deathly Hallows
+            <span class="badge"
+              ><button type="button" class="btn btn-danger">
+                Danger
+              </button></span
+            >
+          </li>
+        </ul>
+      </div>
+      <br />
+      <div id="add-book">
+        <form class="form-inline">
+          <div class="form-group mx-sm-3">
+            <label for="inputPassword2" class="sr-only">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="inputPassword2"
+              placeholder="Add a book..."
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
