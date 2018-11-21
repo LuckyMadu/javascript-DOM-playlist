@@ -1,8 +1,14 @@
-var titles = document.getElementsByClassName("text-center");
+const wrap = document.querySelector(
+  "#book-list li:nth-child(2).list-group-item"
+);
+//console.log(wrap);
 
-console.log(Array.isArray(titles));
-console.log(Array.isArray(Array.from(titles)));
+var books = document.querySelector("#book-list li.list-group-item");
+//console.log(books);
 
-Array.from(titles).forEach(function(item) {
-  console.log(item);
+books = document.querySelectorAll("#book-list li.list-group-item");
+//console.log(books);
+
+Array.from(books).forEach(function(book) {
+  console.log(book);
 });
